@@ -1,0 +1,88 @@
+﻿body 
+{
+    font-family:Calibri;
+}
+//header
+{
+    padding:20px 40px 10px 20px;
+    background-color:#fff;
+}
+#guest
+{
+    padding:40px 40px 40px 40px;
+    margin:80px 0px 80px 0px;
+    }
+#welcome
+{
+    padding:80px 40px 80px 40px;
+    margin:80px 0px 0px 80px;
+    color:White;
+}
+#loginForm
+{
+    margin:80px
+}
+//#regForm 
+{
+    margin:80px
+}
+#LbNameVal
+{
+    font-size:larger;
+}
+#AdminInterface
+{
+    margin:80px
+}
+#PswdRec
+{
+    margin:80px
+}
+#quote
+{
+    font-size:25px;
+}
+#profile
+{
+    margin-top:50px
+}
+<asp:View ID="View4" runat="server">
+                            <table style="width:100%; border-width:1px; border-color:#666; border-style:solid">
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <h3 class="text-info"><span class="glyphicon glyphicon-plus-sign"></span>Add Suppliers</h3><hr />
+                                              <div class="form-group">
+                                                <asp:Label ID="LbSupplierName" runat="server" class="control-label" AssociatedControlID="" Text="Name"></asp:Label>
+                                                <asp:TextBox ID="txtSupplierName" placeholder="" class="form-control" runat="server" Width="400px"></asp:TextBox>
+                                              </div>
+                                              <div class="form-group">
+                                                <asp:Label ID="LbSupplierEmail" runat="server" class="control-label" AssociatedControlID="txtSupplierEmail" Text="Email Address"></asp:Label>
+                                                <asp:TextBox ID="txtSupplierEmail" placeholder="" class="form-control" runat="server" Width="400px"></asp:TextBox>
+                                              </div>
+                                              <div class="form-group">
+                                                <asp:Label ID="LbSupplierPhone" runat="server" class="control-label" AssociatedControlID="txtSupplierPhone" Text="Phone Number"></asp:Label>
+                                                <asp:TextBox ID="txtSupplierPhone" placeholder="" class="form-control" runat="server" Width="400px"></asp:TextBox>
+                                              </div>
+                                              <div class="form-group">
+                                                <asp:Label ID="LbSupplierAddress" runat="server' class="control-label" AssociatedControlID="txtSupplierAddress" Text="Contact Address"></asp:Label>
+                                                <asp:TextBox ID="txtSupplierAddress" placeholder="Enter your address here" class="form-control" runat="server" Width="400px"></asp:TextBox>
+                                              </div>
+                                                  <asp:Button ID="Button1" runat="server" class="btn btn-primary" 
+                                                        Text="Register"  
+                                                            ></asp:Button><br />
+                                                  <asp:Label ID="LbSupplierStatus" runat="server" Text=""></asp:Label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </asp:View>
+                        <asp:View ID="View5" runat="server">
+                            <table style="width:100%; border-width:1px; border-color:#666; border-style:solid">
+                                <tr>
+                                    <td>
+                                        <p>View</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </asp:View>
